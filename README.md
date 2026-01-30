@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import hasMatchSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-match-symbol-support@esm/index.mjs';
+import hasMatchSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-match-symbol-support@v0.1.0-esm/index.mjs';
 ```
 
 #### hasMatchSymbolSupport()
@@ -76,7 +76,7 @@ var bool = hasMatchSymbolSupport();
 <body>
 <script type="module">
 
-import hasMatchSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-match-symbol-support@esm/index.mjs';
+import hasMatchSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-match-symbol-support@v0.1.0-esm/index.mjs';
 
 var bool = hasMatchSymbolSupport();
 if ( bool ) {
