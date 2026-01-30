@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-has-match-symbol-support",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Detect native Symbol.match support.",
   "license": "Apache-2.0",
   "author": {
