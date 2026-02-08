@@ -35,17 +35,80 @@ limitations under the License.
 
 > Detect native [`Symbol.match`][mdn-match-symbol] support.
 
+<section class="installation">
 
+## Installation
 
+```bash
+npm install @stdlib/assert-has-match-symbol-support
+```
 
+Alternatively,
 
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+-   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
 
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
 
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
 
+</section>
+
+<section class="usage">
+
+## Usage
+
+<!-- eslint-disable id-length -->
+
+```javascript
+var hasMatchSymbolSupport = require( '@stdlib/assert-has-match-symbol-support' );
+```
+
+#### hasMatchSymbolSupport()
+
+Detects if a runtime environment supports [`Symbol.match`][mdn-match-symbol].
+
+<!-- eslint-disable id-length -->
+
+```javascript
+var bool = hasMatchSymbolSupport();
+// returns <boolean>
+```
+
+</section>
+
+<!-- /.usage -->
+
+<section class="examples">
+
+## Examples
+
+<!-- eslint-disable id-length -->
+
+<!-- eslint no-undef: "error" -->
+
+```javascript
+var hasMatchSymbolSupport = require( '@stdlib/assert-has-match-symbol-support' );
+
+var bool = hasMatchSymbolSupport();
+if ( bool ) {
+    console.log( 'Environment has Symbol.match support.' );
+} else {
+    console.log( 'Environment lacks Symbol.match support.' );
+}
+```
+
+</section>
+
+<!-- /.examples -->
+
+* * *
 
 <section class="cli">
 
-
+## CLI
 
 <section class="installation">
 
@@ -63,7 +126,7 @@ npm install -g @stdlib/assert-has-match-symbol-support-cli
 
 <section class="usage">
 
-## Usage
+### Usage
 
 ```text
 Usage: has-match-symbol-support [options]
@@ -80,7 +143,7 @@ Options:
 
 <section class="examples">
 
-## Examples
+### Examples
 
 ```bash
 $ has-match-symbol-support
@@ -99,11 +162,6 @@ $ has-match-symbol-support
 
 <section class="related">
 
-## See Also
-
--   <span class="package-name">[`@stdlib/assert-has-match-symbol-support`][@stdlib/assert-has-match-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native Symbol.match support.</span>
-
-
 </section>
 
 <!-- /.related -->
@@ -121,7 +179,7 @@ This package is part of [stdlib][stdlib], a standard library for JavaScript and 
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
-### Community
+#### Community
 
 [![Chat][chat-image]][chat-url]
 
@@ -144,11 +202,11 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/assert-has-match-symbol-support-cli.svg
-[npm-url]: https://npmjs.org/package/@stdlib/assert-has-match-symbol-support-cli
+[npm-image]: http://img.shields.io/npm/v/@stdlib/assert-has-match-symbol-support.svg
+[npm-url]: https://npmjs.org/package/@stdlib/assert-has-match-symbol-support
 
-[test-image]: https://github.com/stdlib-js/assert-has-match-symbol-support/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/assert-has-match-symbol-support/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/assert-has-match-symbol-support/actions/workflows/test.yml/badge.svg?branch=v0.1.1
+[test-url]: https://github.com/stdlib-js/assert-has-match-symbol-support/actions/workflows/test.yml?query=branch:v0.1.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/assert-has-match-symbol-support/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/assert-has-match-symbol-support?branch=main
