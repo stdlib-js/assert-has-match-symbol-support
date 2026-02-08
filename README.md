@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import hasMatchSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-match-symbol-support@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-has-match-symbol-support/tags). For example,
+
+```javascript
 import hasMatchSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-match-symbol-support@v0.1.1-esm/index.mjs';
 ```
 
@@ -76,7 +81,7 @@ var bool = hasMatchSymbolSupport();
 <body>
 <script type="module">
 
-import hasMatchSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-match-symbol-support@v0.1.1-esm/index.mjs';
+import hasMatchSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-match-symbol-support@esm/index.mjs';
 
 var bool = hasMatchSymbolSupport();
 if ( bool ) {
